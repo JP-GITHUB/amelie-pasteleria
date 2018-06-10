@@ -1,0 +1,64 @@
+footer {
+    color: white;
+    border-top: 2px solid rgb(51, 223, 194);
+}
+
+footer a {
+    color: #bfffff;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    background: #ebd19a;
+    padding: 1em;
+}
+
+.footer-top {
+    background: #ebd19a;
+}
+
+.footer-middle {
+    background: #4e3c05;
+    padding-top: 1.5em;
+    color: white;
+}
+
+/**Sub Navigation**/
+
+.subnavigation-container {
+    background: #4e3c05;
+}
+
+.subnavigation .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.subnavigation-container {
+    text-align: center;
+}
+
+.subnavigation-container .navbar {
+    display: inline-block;
+    margin-bottom: -6px;
+    /* Inline-block margin offffset HACK -Gilron */
+}
+
+.col-subnav a {
+    padding: 1rem 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.col-subnav .active {
+    border-top: 5px solid orange;
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 90%;
+}

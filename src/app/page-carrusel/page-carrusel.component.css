@@ -1,0 +1,26 @@
+.principal-carrusel .carousel-inner{
+    height: 100%;
+}
+
+.principal-carrusel{
+    height: 550px;
+}
+
+.principal-carrusel .carousel-inner img{
+    height: 550px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+@media (max-width: 576px) { 
+    .principal-carrusel{
+        height: 350px;
+    }
+
+    .principal-carrusel .carousel-inner img{
+        height: 350px;
+    }
+}

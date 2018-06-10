@@ -1,0 +1,33 @@
+.navbar {
+    border-bottom: 2px solid rgb(51, 223, 194);
+    padding-right: 5%;
+}
+
+.navbar-brand img {
+    width: 300px;
+    height: 140px;
+}
+
+.sub-navbar .navbar-collapse .navbar-nav {
+    position: sticky;
+    left: 100%;
+}
+
+.bg-cream {
+    background-color: #ebd19a !important;
+}
+
+@media (min-width: 768px) {
+    .sub-navbar {
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 100%;
+    }
+    .sub-navbar .navbar-collapse .navbar-nav {
+        left: 0;
+    }
+}
