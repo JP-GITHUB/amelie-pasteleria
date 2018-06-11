@@ -7,6 +7,9 @@ import { PageNavBarComponent } from './page-nav-bar/page-nav-bar.component';
 import { PageCarruselComponent } from './page-carrusel/page-carrusel.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
 import { ProductosComponent } from './productos/productos.component';
+import { ProductosListadoComponent } from './productos-listado/productos-listado.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ProductosComponent } from './productos/productos.component';
     PageNavBarComponent,
     PageCarruselComponent,
     PageFooterComponent,
-    ProductosComponent
+    ProductosComponent,
+    ProductosListadoComponent,
+    NosotrosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
