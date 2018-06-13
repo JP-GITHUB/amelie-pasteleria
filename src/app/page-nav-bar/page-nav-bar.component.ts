@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-nav-bar.component.css']
 })
 export class PageNavBarComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {

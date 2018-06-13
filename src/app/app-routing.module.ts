@@ -4,12 +4,14 @@ import { ProductosComponent } from './productos/productos.component';
 import { PageCarruselComponent } from './page-carrusel/page-carrusel.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { InternosComponent } from './internos/internos.component';
 
 const routes: Routes = [
   { path: '', component: PageCarruselComponent },
   { path: 'productos', component: ProductosComponent },
   { path: 'nosotros', component: NosotrosComponent },
-  { path: 'contacto', component: ContactoComponent }
+  { path: 'contacto', component: ContactoComponent },  
+  { path: 'internos', component: InternosComponent }
 ];
 
 @NgModule({
