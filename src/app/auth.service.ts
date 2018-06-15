@@ -20,6 +20,13 @@ export class AuthService {
     }
   }
 
+  cerrarSession() {
+    if (this.validarLocalStorage()) {
+      localStorage.removeItem("user-sign");
+    }
+    return true;
+  }
+
   validarLocalStorage() {
     var localStorage_isSupported = (function () {
       try {
