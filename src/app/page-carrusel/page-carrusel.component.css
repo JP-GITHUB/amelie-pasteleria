@@ -24,3 +24,13 @@
         height: 350px;
     }
 }
+
+@media (max-width: 1200px) {
+    .principal-carrusel{
+        height: 300px;
+    }
+
+    .principal-carrusel .carousel-inner img{
+        height: 300px;
+    }
+}

@@ -12,6 +12,8 @@ import { ProductosListadoComponent } from './productos-listado/productos-listado
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { InternosComponent } from './internos/internos.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { NavBarService } from './page-nav-bar/nav-bar.service';
 
 @NgModule({
   declarations: [
@@ -23,14 +25,15 @@ import { InternosComponent } from './internos/internos.component';
     ProductosListadoComponent,
     NosotrosComponent,
     ContactoComponent,
-    InternosComponent
+    InternosComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule      
   ],
-  providers: [],
+  providers: [NavBarService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

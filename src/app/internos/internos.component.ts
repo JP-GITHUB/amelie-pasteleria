@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 import { AuthService } from '../auth.service'
 
@@ -10,7 +11,7 @@ import { AuthService } from '../auth.service'
 })
 export class InternosComponent implements OnInit {
 
-  constructor(public authService:AuthService) { }
+  constructor(public authService: AuthService, private _router: Router) { }
 
   ngOnInit() {
   }
@@ -20,8 +21,8 @@ export class InternosComponent implements OnInit {
     console.log(f.valid);  // false
 
     let validacion = this.authService.validarCredenciales(f.value.email, f.value.password);
-    if(validacion){
-      console.log(localStorage.getItem("user-sign"));
+    if (validacion) {
+      this._router.navigate(["dashboard"]);
     }
   }
 
